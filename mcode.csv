@@ -1,0 +1,271 @@
+M00	Program stop
+M01	Optional stop
+M02	Program end
+M03	Spindle normal rotation
+M04	Spindle reverse rotation
+M05	Spindle stop
+M06	Chuck unclamp (releasing workpiece)
+M07	Chuck clamp (holding workpiece)
+M08	Flood coolant ON
+M09	Coolant OFF
+M10	
+M11	
+M12	Milling spindle mode cancel (Turning mode selection)
+M13	Milling tool normal rotation
+M14	Milling tool reverse rotation
+M15	Milling tool stop
+M16	Spindle orientation 0° (for AJC)
+M17	Spindle orientation 120° (for AJC)
+M18	Spindle orientation 240° (for AJC)
+M19	Spindle orientation position (for the robot to insert a workpiece)
+M20	Robot service call
+M21	Robot service call
+M22	Robot service call
+M23	Robot service call
+M24	Robot service call
+M25	Robot service call
+M26	Robot service call
+M27	Robot service call
+M28	Robot service call
+M29	Robot service call
+M30	Reset & tape rewind
+M31	Tail spindle & tailstock body advance (for 300/400-III/IIIT)
+M32	Tail spindle & tailstock body retract (for 300/400-III/IIIT)
+M33	Low chuck pressure
+M34	High chuck pressure
+M35	
+M36	
+M37	
+M38	
+M39	
+M40	
+M41	
+M42	
+M43	
+M44	
+M45	Air coolant blow ON (coolant stop: M09)
+M46	
+M47	
+M48	Parts catcher advance
+M49	Parts catcher retract
+M50	
+M51	Error detect OFF
+M52	Error detect ON
+M53	Chamfering OFF
+M54	Chamfering ON
+M55	Piece count
+M56	Front door open
+M57	Front door close
+M58	Chuck air blast
+M59	
+M60	C-axis unclamp
+M61	
+M62	
+M63	
+M64	
+M65	
+M66	C-axis clamp
+M67	C-axis brake (for machining by G01)
+M68	Cycle bar feeder call 1
+M69	Cycle bar feeder call 2
+M70	
+M71	
+M72	Inside chuck clamp
+M73	Outside chuck clamp
+M74	Steady rest – milling head connection mode release
+M75	Steady rest – milling head connection mode start
+M76	
+M77	
+M78	
+M79	
+M80	
+M81	Workpiece measurement start
+M82	Workpiece measurement end
+M83	Tool measurement start
+M84	Tool measurement end
+M85	
+M86	Steady rest 1 unclamp
+M87	Steady rest 1 clamp
+M88	Steady rest 2 unclamp
+M89	Steady rest 2 clamp
+M90	
+M91	
+M92	
+M93	
+M94	
+M95	
+M96	"User macro interruption, valid"
+M97	"User macro interruption, invalid"
+M98	EIA ? EIA Subprogram call
+M99	EIA ? EIA Return to main EIA program
+M100	Workpiece measurement DIA start
+M101	Workpiece measurement DIA end
+M102	Workpiece measurement STP start
+M103	Workpiece measurement STP end
+M104	Workpiece measurement GRV start
+M105	Workpiece measurement GRV end
+M106	Workpiece measurement WID start
+M107	Workpiece measurement WID end
+M108	Workpiece measurement DIS start (chuck barrier release)
+M109	Workpiece measurement DIS end
+M110	Tool tip measurement TOL start
+M111	Tool tip measurement TOL end
+M112	External tool compensation EXT start
+M113	External tool compensation EXT end
+M114	Z-axis offset measurement ZOF start
+M115	Z-axis offset measurement ZOF end
+M116	C-axis offset measurement COF start
+M117	C-axis offset measurement COF end
+M118	
+M119	
+M120	Measurement data print out
+M121	
+M149	
+M150	Workpiece unload demand to robot
+M151	Milling spindle through air blow ON (Only for turning tools)
+M152	Milling spindle through air blow OFF (Only for turning tools)
+M153	Milling spindle through coolant ON
+M154	Milling spindle through coolant OFF
+M155	Chuck coolant ON (composed movement)
+M156	Chuck coolant OFF (composed movement)
+M157	Spindle through coolant blow ON (OFF: M159)
+M158	Spindle through air blow ON (OFF: M159)
+M159	"M157, M158 OFF"
+M160	Shower coolant ON/chuck stopper extend
+M161	Shower coolant OFF/chuck stopper retract
+M162	Workpiece rechucking (for a piece delivered by robot)
+M163	Tail spindle thrust low pressure (for 300/400-III/IIIT)
+M164	Tail spindle thrust high pressure (for 300/400-III/IIIT)
+M165	
+M166	
+M167	
+M168	
+M169	"35K, 70K high pressure coolant ON (OFF: M9, M154)"
+M170	
+M171	
+M172	Index 0°(KOUYOU)
+M173	Index 90°(KOUYOU)
+M174	Index 180°(KOUYOU)
+M175	Index 270°(KOUYOU)
+M176	Index 270°(KOUYOU)
+M177	Index 270°(KOUYOU)
+M178	Index 270°(KOUYOU)
+M179	Index 270°(KOUYOU)
+M180	
+M197	
+M198	EIA ? MAZATROL program call
+M199	EIA ? MAZATROL program end
+M200	Milling point machining start
+M201	Milling line machining start
+M202	Turning mode
+M203	Milling tool normal rotation
+M204	Milling tool reverse rotation
+M205	Milling tool stop
+M206	
+M207	"M208, M209 mode cancel"
+M208	"ATC prohibition mode during finishing, coolant ON"
+M209	"ATC prohibition mode during finishing, coolant OFF"
+M210	C-axis clamp (for milling)
+M211	C-axis brake (for milling)
+M212	C-axis unclamp (for milling)
+M213	C-axis brake only (brake by M211)
+M214	C-axis unclamp only (unclamp by M212)
+M215	"M213, M214 and M216 mode cancel"
+M216	C-axis unclamp neglect mode (cancel: M215)
+M217	
+M218	
+M219	Milling tool orient
+M220	
+M229	
+M230	Grinding mode ON
+M231	Grinding speed setting
+M232	
+M233	
+M234	
+M235	
+M236	C-axis servo gain normal
+M237	C-axis servo gain low
+M238	C-axis servo gain middle
+M239	C-axis servo gain high
+M240	
+M241	
+M242	
+M243	
+M244	
+M245	
+M246	
+M247	
+M248	Spindle speed check (for interlocking the start of cutting)
+M249	Milling head selection preparation
+M250	Milling head/B-axis unclamp
+M251	B-axis clamp
+M252	Milling spindle unclamp
+M253	Milling spindle clamp
+M254	Milling head/B-axis clamp
+M255	
+M256	
+M257	
+M258	Milling head air blow
+M259	
+M260	Polygon mode ON
+M261	Polygon mode OFF
+M262	
+M273	
+M274	Steady rest coolant ON
+M275	Steady rest coolant OFF
+M276	
+M330	
+M331	Spindle coil change fixed to high speed
+M332	"Spindle coil change, valid"
+M333	
+M347	
+M348	Yt-axis selection
+M349	Y-axis selection
+M350	
+M351	M352 cancel
+M352	"Spindle speed arrival signal check, valid"
+M353	
+M369	
+M370	"Axis load detection, invalid"
+M371	"Axis load detection, valid"
+M372	"Axis load detection, temporarily invalid"
+M373	"Axis load detection, re-start"
+M374	NC feed holding on overload detection
+M375	NC feed holding & spindle stop on overload detection
+M376	Overload detection level % setting
+M377	Overload detection time setting (unit: 0.1 sec)
+M378	Overload detection peak %/detection frequency setting
+M379	Overload detection table No. registration
+M380	
+M389	
+M390	M391 cancel
+M391	Spindle mis-chucking cancel (M3/M4 completed with chuck open)
+M392	
+M393	
+M394	TOOL EYE extension possible during chuck close (when robot valid)
+M395	M394 cancel
+M396	
+M600	
+M601	Magazine tool rotation
+M602	
+M730	
+M731	Tail thrust 1 selection
+M732	Tail thrust 2 selection
+M733	Tail thrust 3 selection
+M734	Tail thrust 4 selection
+M735	Tail thrust 5 selection
+M736	Tail thrust 6 selection
+M737	Tail thrust 7 selection
+M738	Tail thrust 8 selection
+M739	Tail thrust 9 selection
+M740	Tail thrust 10 selection
+M741	Positioning tailstock to “Position 1”
+M742	Positioning tailstock to “Position 2”
+M743	Positioning tailstock to “Retract”
+M744	
+M927	
+M928	Y-axis zero point return
+M929	
+M930	Yt-axis moving to ATC position
+M931	
+M999	
